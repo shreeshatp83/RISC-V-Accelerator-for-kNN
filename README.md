@@ -1,4 +1,4 @@
-# Use Python version 3.9 or 3.10 . Do not use ***Python 3.11 or 3.12***  (Some of the packages used here are not supported in these versions ) .
+# Use Python version  or 3.10 . Do not use ***Python 3.11 or 3.12***  (Some of the packages used here are not supported in these versions ) .
 
 
 Here is a step by step procedure of how to run this model.
