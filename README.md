@@ -1,6 +1,7 @@
 # RISC-V Based Hardware Accelerator for K-Nearest Neighbors (KNN)
 
 This project is a custom hardware accelerator based on the RISC-V architecture designed to optimize K-Nearest Neighbors (KNN) operations. The accelerator includes several modules such as the Instruction Fetch Unit (IFU), Control Unit, Datapath, and customized Arithmetic Logic Unit (ALU). The design is implemented using Verilog and targets efficient computation for KNN-based algorithms.
+
 ![rtl_syn_processor](https://github.com/user-attachments/assets/545df136-3819-4aca-88c6-1389a8bc4145)
 
 
@@ -11,14 +12,18 @@ The hardware accelerator comprises the following main components:
 ### 1. **Instruction Fetch Unit (IFU)**
 - Fetches instructions from the instruction memory using the Program Counter (PC).
 - Instruction memory is implemented as a Block RAM (BRAM).
+  
 - ![rtl_syn_IFU](https://github.com/user-attachments/assets/7baddaf2-2deb-4110-80dc-d381837142a7)
+  
 ![IFU](https://github.com/user-attachments/assets/167d4f22-d8fe-4f7e-a968-a7c8e0975dde)
 
 
 ### 2. **Control Unit**
 - Decodes the fetched instructions and generates the necessary control signals for other modules in the processor.
 - Supports a range of instruction types, including integer operations, floating point operations, branch operations, floating point load, and integer load.
+  
 - ![rtl_syn_CU](https://github.com/user-attachments/assets/2a1290a7-bf31-42a4-9b67-d4a2a214e876)
+  
 - ![Control Unit](https://github.com/user-attachments/assets/b8496976-498c-4dab-b3c0-02d77931b7a7)
 
 
