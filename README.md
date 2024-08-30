@@ -9,6 +9,9 @@ The hardware accelerator comprises the following main components:
 ### 1. **Instruction Fetch Unit (IFU)**
 - Fetches instructions from the instruction memory using the Program Counter (PC).
 - Instruction memory is implemented as a Block RAM (BRAM).
+- ![rtl_syn_IFU](https://github.com/user-attachments/assets/7baddaf2-2deb-4110-80dc-d381837142a7)
+![IFU](https://github.com/user-attachments/assets/167d4f22-d8fe-4f7e-a968-a7c8e0975dde)
+
 
 ### 2. **Control Unit**
 - Decodes the fetched instructions and generates the necessary control signals for other modules in the processor.
