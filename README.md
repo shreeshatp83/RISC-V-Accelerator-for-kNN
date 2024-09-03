@@ -1,4 +1,4 @@
-# RISC-V Based Hardware Accelerator for K-Nearest Neighbors (KNN)
+# RISC-V Based Hardware Accelerator for K-Nearest Neighbors (kNN)
 
 This project is a custom hardware accelerator based on the RISC-V architecture designed to optimize K-Nearest Neighbors (KNN) operations. The accelerator includes several modules such as the Instruction Fetch Unit (IFU), Control Unit, Datapath, and customized Arithmetic Logic Unit (ALU). The design is implemented using Verilog and targets efficient computation for KNN-based algorithms.
 
